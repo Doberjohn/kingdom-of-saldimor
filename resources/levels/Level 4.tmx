@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="300" height="15" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="a" tilewidth="64" tileheight="64">
+  <image source="a.png" width="320" height="256"/>
+  <tile id="13">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="21" name="celiannatrees2" tilewidth="64" tileheight="64">
+  <image source="celiannatrees2.png" width="848" height="559"/>
+  <tile id="90">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="91">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="93">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="103">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="125" name="death_tiles40m9" tilewidth="64" tileheight="64">
+  <image source="death_tiles40m9.png" width="1024" height="1024"/>
+  <tile id="2">
+   <properties>
+    <property name="tileType" value="spike"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="381" name="mountain_town" tilewidth="64" tileheight="64">
+  <image source="mountain_town.png" width="512" height="512"/>
+  <tile id="0">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="445" name="barrensbasedirtcc6" tilewidth="64" tileheight="64">
+  <image source="barrensbasedirtcc6.png" width="256" height="256"/>
+ </tileset>
+ <layer name="CollisionLayer" width="300" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3YsbLCIBCFYRyrNL7qdazVVFcr9Y18NnHUERHIEpCNzl98HWFZwGN0YYxZAAAAAAAAAEAF59mN9joAIIaMAozpJrAGhLkZRV4B5FVKy99ej1q59cY+B5TSuHPklb6Sc9/YZ7dWL5zDzTcyDiXIq2mocQ7SPCit9W+f31l7sgeN+N95LXOLvAqfQelcNcel1Mgr3re+h9ZZDdVsta4xedXf1aj/p3jeVzV6ecyhcY/cvOrNq5JeWvbwCa3vlYYaZ5Xapyl+h8XyapV45nQ3NH4T+F9l6Y1ZC2sOrdGvJZ0r1EtO3dgcod5LxPo52BpH6zR7rsNdj7/fOftRuwfp3qTOTrqmdcZ6Yp+BLlAvNDb1vGTc2Dsz5u76dXL2Kfcu5fQpzY8OQDRvJGNT87rvu9o9/oI5gLff0n3G2NS87vuudo+/4AKjPxICUEYAAA==
+  </data>
+ </layer>
+ <objectgroup name="Object Layer" width="300" height="15">
+  <object name="Kelfar" type="Objective" x="377" y="723" width="107" height="123"/>
+  <object name="Kelfar" type="Objective" x="1146" y="707" width="107" height="123"/>
+  <object name="Kelfar" type="Objective" x="1269" y="707" width="107" height="123"/>
+  <object name="Kelfar" type="Objective" x="1886" y="692" width="107" height="123"/>
+  <object name="Kelfar" type="Objective" x="2203" y="698" width="107" height="123"/>
+  <object name="Heart" type="Objective" x="2364" y="752" width="76" height="69"/>
+  <object name="Kelfar" type="Objective" x="2778" y="691" width="107" height="123"/>
+  <object name="Kelfar" type="Objective" x="2984" y="698" width="107" height="123"/>
+  <object name="Kelfar" type="Objective" x="3273" y="695" width="107" height="123"/>
+  <object name="Heart" type="Objective" x="3475" y="750" width="76" height="69"/>
+  <object name="Kelfar" type="Objective" x="3721" y="697" width="107" height="123"/>
+  <object name="Kelfar" type="Objective" x="5067" y="696" width="107" height="123"/>
+  <object name="Kelfar" type="Objective" x="4941" y="691" width="107" height="123"/>
+  <object name="Kelfar" type="Objective" x="4819" y="689" width="107" height="123"/>
+  <object name="Heart" type="Objective" x="4569" y="371" width="76" height="69"/>
+  <object name="Heart" type="Objective" x="5529" y="497" width="76" height="69"/>
+  <object name="Kelfar" type="Objective" x="5858" y="696" width="107" height="123"/>
+  <object name="Kelfar" type="Objective" x="5733" y="695" width="107" height="123"/>
+  <object name="Kelfar" type="Objective" x="5989" y="697" width="107" height="123"/>
+  <object name="Heart" type="Objective" x="6929" y="176" width="76" height="69"/>
+  <object name="Heart" type="Objective" x="6490" y="752" width="76" height="69"/>
+  <object name="Kelfar" type="Objective" x="6766" y="696" width="107" height="123"/>
+  <object name="Kelfar" type="Objective" x="6641" y="695" width="107" height="123"/>
+  <object name="Kelfar" type="Objective" x="6897" y="697" width="107" height="123"/>
+  <object name="Heart" type="Objective" x="7075" y="750" width="76" height="69"/>
+  <object name="Kelfar" type="Objective" x="7797" y="701" width="107" height="123"/>
+  <object name="Kelfar" type="Objective" x="7922" y="702" width="107" height="123"/>
+  <object name="Kelfar" type="Objective" x="8768" y="702" width="107" height="123"/>
+  <object name="Kelfar" type="Objective" x="8866" y="702" width="107" height="123"/>
+  <object name="Kelfar" type="Objective" x="8964" y="699" width="107" height="123"/>
+  <object name="Heart" type="Objective" x="8664" y="752" width="76" height="69"/>
+  <object name="Kelfar" type="Objective" x="9399" y="702" width="107" height="123"/>
+  <object name="Kelfar" type="Objective" x="9497" y="702" width="107" height="123"/>
+  <object name="Heart" type="Objective" x="9179" y="757" width="76" height="69"/>
+  <object name="Kelfar" type="Objective" x="10772" y="697" width="107" height="123"/>
+  <object name="Heart" type="Objective" x="10472" y="750" width="76" height="69"/>
+  <object name="Heart" type="Objective" x="10987" y="755" width="76" height="69"/>
+  <object name="Kelfar" type="Objective" x="11207" y="700" width="107" height="123"/>
+  <object name="Kelfar" type="Objective" x="10576" y="700" width="107" height="123"/>
+  <object name="Kelfar" type="Objective" x="10674" y="700" width="107" height="123"/>
+  <object name="Kelfar" type="Objective" x="11305" y="700" width="107" height="123"/>
+  <object name="Heart" type="Objective" x="10248" y="748" width="76" height="69"/>
+  <object name="Kelfar" type="Objective" x="12140" y="696" width="107" height="123"/>
+  <object name="Heart" type="Objective" x="11920" y="751" width="76" height="69"/>
+  <object name="Kelfar" type="Objective" x="12238" y="696" width="107" height="123"/>
+  <object name="Heart" type="Objective" x="7638" y="750" width="76" height="69"/>
+  <object name="Heart" type="Objective" x="13048" y="686" width="76" height="69"/>
+  <object name="Kelfar" type="Objective" x="12871" y="697" width="107" height="123"/>
+  <object name="Heart" type="Objective" x="13754" y="686" width="76" height="69"/>
+  <object name="Kelfar" type="Objective" x="13629" y="695" width="107" height="123"/>
+  <object name="Kelfar" type="Objective" x="13485" y="693" width="107" height="123"/>
+  <object name="Kelfar" type="Objective" x="14943" y="686" width="107" height="123"/>
+  <object name="Kelfar" type="Objective" x="14214" y="686" width="107" height="123"/>
+  <object name="Heart" type="Objective" x="14625" y="741" width="76" height="69"/>
+  <object name="Kelfar" type="Objective" x="14312" y="686" width="107" height="123"/>
+  <object name="Kelfar" type="Objective" x="14410" y="683" width="107" height="123"/>
+  <object name="Heart" type="Objective" x="14110" y="736" width="76" height="69"/>
+  <object name="Kelfar" type="Objective" x="14845" y="686" width="107" height="123"/>
+  <object name="Heart" type="Objective" x="16107" y="757" width="76" height="69"/>
+  <object name="Kelfar" type="Objective" x="15760" y="704" width="107" height="123"/>
+  <object name="Kelfar" type="Objective" x="15858" y="701" width="107" height="123"/>
+  <object name="Heart" type="Objective" x="15558" y="754" width="76" height="69"/>
+  <object name="Kelfar" type="Objective" x="15662" y="704" width="107" height="123"/>
+  <object name="Kelfar" type="Objective" x="16293" y="704" width="107" height="123"/>
+  <object name="Kelfar" type="Objective" x="16391" y="704" width="107" height="123"/>
+  <object name="Heart" type="Objective" x="18445" y="747" width="76" height="69"/>
+  <object name="Kelfar" type="Objective" x="18132" y="692" width="107" height="123"/>
+  <object name="Kelfar" type="Objective" x="18230" y="689" width="107" height="123"/>
+  <object name="Heart" type="Objective" x="17930" y="742" width="76" height="69"/>
+  <object name="Kelfar" type="Objective" x="18034" y="692" width="107" height="123"/>
+  <object name="Kelfar" type="Objective" x="18665" y="692" width="107" height="123"/>
+  <object name="Kelfar" type="Objective" x="18763" y="692" width="107" height="123"/>
+ </objectgroup>
+</map>
