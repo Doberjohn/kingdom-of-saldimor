@@ -1,0 +1,1 @@
+An award winning 2D platform video game, created in Java using lwjgl and slick2D. Entitled as one of the best projects in the Department of Information Technology in University of Macedonia.
